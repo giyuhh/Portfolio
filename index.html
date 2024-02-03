@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  charset="UTF -8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0dcadde739.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="pics/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class ="header-text">
+            <p> Information Technology Student</p>
+            <h1>I aspire to make a<br> mark in the dynamic <br> world of technology.<br> 
+                Hi, I'm<span> Gia!</span></h1>
+        </div>
+
+    </div>
+
+</div>
+<!-- -------------- about ------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1" style="width: 55%">
+                <img src="pics/about.JPEG" style="width: 100%">
+            </div>
+            <div class="about-col-2" style="width: 30%">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey there! I'm Gia Claveria,
+                    I thrive on being great at the things I do, and I'm dedicated to share knowledge 
+                    or help other people. With a love for designing, 
+                    I'm always excited to unleash the creativity in me, and so should you!
+                    Let's connect and explore the journey together!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>- Able to adapt to new and dynamic environments.<br>- Work efficiently, effectively, and develop a harmonious relationship 
+                            with<br> colleagues and clients.<br>- Goals are always set to ensure that they are 
+                            being fulfilled while working in the company.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current </span><br>Currently Studying:<br> - UI/UX
+                            <br> - Web Development<br> - App Development</li>
+            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016-2020 (Primary)</span><br>LNU-FQDMFSSHS</li>
+                            <li><span>2020-2022 (Secondary)</span><br>University of Pangasinan</li>
+                            <li><span>2022 - Present</span><br>University of Pangasinan</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------- services ---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> A cutting-edge web design service that will elevate your brand by 
+                    revolutionizing your online presence. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>UI/UX Design</h2>
+                <p> Ensure that users are engaged with my craft in meaningful ways by bringing 
+                    innovation, empathy, and creativity to every project. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p> Specialize in creating visually stunning, user-friendly mobile applications 
+                    that capture the hearts of audiences. </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>  
+    </div>
+
+
+</div>
+
+<!-- -------------- portfolio ---------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work" style="width: 80%">
+                <img src="pics/workk1.jpg">
+                <div class="layer">
+                   <h3> Wheel Wander </h3> 
+                   <p> A convenient platform that allows users to access
+                    a wide range of cars and other types of vehicles for rental purposes, 
+                    catering to various needs and preferences. </p>
+                     <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work" style="width: 80%">
+                <img src="pics/workk2.jpg">
+                <div class="layer">
+                    <h3> Mini Math Game </h3> 
+                    <p> An engaging and fun-filled math game designed to enhance your mathematical
+                    skills in a compact and entertaining format. </p>
+                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+        </div>
+
+</div>
+<!-- -------------- contact ---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>g.claveria812@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09153072684</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="pics/Claveria, Gia C. (Resume).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Gia. Always choose to be kind! <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyyU33_EZJiJilT4H6nJ8ZfUDzPTqwOG-WETo6hGeLCfOQN8jZ7hmAi6JfC-kANx883vA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Form Sent!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
